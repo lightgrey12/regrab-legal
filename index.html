@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>리그랩 (Regrab)</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            padding: 48px 20px;
+            max-width: 480px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #111;
+        }
+        .tagline {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 40px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 18px;
+            background: #f9f9f9;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            font-size: 15px;
+            font-weight: 500;
+            transition: background 0.15s;
+        }
+        .menu-item:hover {
+            background: #f0f0f0;
+        }
+        .arrow {
+            color: #ccc;
+            font-size: 14px;
+        }
+        .footer {
+            margin-top: 48px;
+            text-align: center;
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #e8e8e8;
+                background: #0f0f0f;
+            }
+            .logo {
+                color: #ffffff;
+            }
+            .tagline {
+                color: #888;
+            }
+            .menu-item {
+                background: #1a1a1a;
+                color: #e0e0e0;
+            }
+            .menu-item:hover {
+                background: #242424;
+            }
+            .arrow {
+                color: #555;
+            }
+            .footer {
+                color: #555;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">리그랩 (Regrab)</div>
+    <p class="tagline">하루 하나, 작게 시작해요</p>
+
+    <div class="menu">
+        <a href="privacy.html" class="menu-item">
+            개인정보처리방침
+            <span class="arrow">›</span>
+        </a>
+        <a href="terms.html" class="menu-item">
+            이용약관
+            <span class="arrow">›</span>
+        </a>
+        <a href="mailto:117dvlo@gmail.com?subject=리그랩 문의" class="menu-item">
+            문의하기
+            <span class="arrow">›</span>
+        </a>
+    </div>
+
+    <p class="footer">© 2026 Regrab</p>
+
+</body>
+</html>
